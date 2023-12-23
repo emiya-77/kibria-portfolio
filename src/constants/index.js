@@ -166,28 +166,28 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: '/public/img/projects/tech-play.png',
+        iconUrl: '/img/projects/tech-play.png',
         theme: 'btn-back-blue',
         name: 'Tech-play | Event Managing Website',
         description: 'Best place to get the latest updates on ground-breaking state-of-the-art technologies & Games. Breathtaking visuals with mesmerizing animations. Secure, fast, seamless user experience',
         link: 'https://tech-play-f948c.web.app/',
     },
     {
-        iconUrl: '/public/img/projects/elysium.png',
+        iconUrl: '/img/projects/elysium.png',
         theme: 'btn-back-red',
         name: 'Elysium | Restaurant',
         description: 'Stunning visuals with a smooth, and user-friendly interface. Users can both buy and sell, order and promote their delicious homemade food in seconds. Secure Firebase authentication with both email / password and google sign-in options.',
         link: 'https://elysium-5dc18.web.app/',
     },
     {
-        iconUrl: '/public/img/projects/midnight-tales.png',
+        iconUrl: '/img/projects/midnight-tales.png',
         theme: 'btn-back-black',
         name: 'Midnight Tales | Movie Rating Website',
         description: 'All-in-one movie place forlatest blockbusterrelease. Secure Firebase authentication with both email / password and google sign-in options',
         link: 'https://midnight-tales-32469.web.app/',
     },
     {
-        iconUrl: '/public/img/projects/swift-parcel.png',
+        iconUrl: '/img/projects/swift-parcel.png',
         theme: 'btn-back-green',
         name: 'Swift Parcel | Delivery Website',
         description: 'separate dashboards forthree different types of users: 1. Admin, 2. Users, & 3. Delivery Man. Users can review and rate the service, and Admins can make anyone admin or delivery man with a single click, and also access statistics & information on all users and delivery men.',
