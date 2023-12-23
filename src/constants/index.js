@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "/public/img/skills";
+import { meta, shopify, starbucks, tesla, beecrowd, bgc, daffodil } from "/public/img/skills";
 import {
     car,
     contact,
@@ -23,7 +23,10 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    firebase,
+    daisyui,
+    bootstrap,
 } from "/public/img/icons";
 
 export const skills = [
@@ -73,11 +76,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
@@ -88,78 +86,62 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: firebase,
+        name: "Firebase",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: daisyui,
+        name: "DaisyUI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend",
+    },
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Higher Secondary Certificate",
+        company_name: "Bogura Government College, Bangladesh",
+        icon: bgc,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2017 - April 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Graduated high-school in 2019.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Bachelor's in Computer Science",
+        company_name: "Daffodil International University, Bangladesh",
+        icon: daffodil,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "So why computer science? well, when I was a younger, I used play a lot of pc-games. and as I grew up, i wanted to recreate those fantasy worlds I used to immerge myself in. That was what motivated me to start coding at first.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Throughout my university years, I picked up a lot of skills. For example, C, Python, Javascript to name a few.",
+            "I was a member of the Chess club, and although my highest rating was 1300, I still have a special place for the game in my heart.",
+            "I had also engaged in a lot of problem solving. I've solved over 200 problems on websites such as beecrowd, codeforce, and leetcode"
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "BeeCrowd",
+        company_name: "Problem Solving",
+        icon: beecrowd,
+        iconBg: "#fbc3bc",
+        date: "July 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Solved 169 Problems | beecrowd.com",
+            "Highest Weekly Rank: 36th | beecrowd.com",
+            "Place: 7,565",
         ],
     },
 ];
@@ -184,45 +166,31 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
+        iconUrl: '/public/img/projects/tech-play.png',
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Tech-play | Event Managing Website',
+        description: 'Best place to get the latest updates on ground-breaking state-of-the-art technologies & Games. Breathtaking visuals with mesmerizing animations. Secure, fast, seamless user experience',
+        link: 'https://tech-play-f948c.web.app/',
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        iconUrl: '/public/img/projects/elysium.png',
+        theme: 'btn-back-red',
+        name: 'Elysium | Restaurant',
+        description: 'Stunning visuals with a smooth, and user-friendly interface. Users can both buy and sell, order and promote their delicious homemade food in seconds. Secure Firebase authentication with both email / password and google sign-in options.',
+        link: 'https://elysium-5dc18.web.app/',
     },
     {
-        iconUrl: estate,
+        iconUrl: '/public/img/projects/midnight-tales.png',
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Midnight Tales | Movie Rating Website',
+        description: 'All-in-one movie place forlatest blockbusterrelease. Secure Firebase authentication with both email / password and google sign-in options',
+        link: 'https://midnight-tales-32469.web.app/',
     },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        iconUrl: '/public/img/projects/swift-parcel.png',
+        theme: 'btn-back-green',
+        name: 'Swift Parcel | Delivery Website',
+        description: 'separate dashboards forthree different types of users: 1. Admin, 2. Users, & 3. Delivery Man. Users can review and rate the service, and Admins can make anyone admin or delivery man with a single click, and also access statistics & information on all users and delivery men.',
+        link: 'https://swift-parcel-35948.web.app/',
     }
 ];
