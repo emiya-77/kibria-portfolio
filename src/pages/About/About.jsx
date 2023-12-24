@@ -2,6 +2,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 
 import { skills, experiences } from '../../constants/index.js'
+import DownloadResumeButton from '../../components/DownloadResumeButton.jsx';
 
 const About = () => {
     return (
@@ -17,6 +18,7 @@ const About = () => {
                 <p className="mt-5 flex flex-col gap-3 text-slate-500 text-lg">
                     I&apos;m passionate about building beautiful interfaces. I gravitate towards creating designs that feel immersive and 3D. My highest priority is to make the application smooth and visually stunning so that the eyes never get tired of it.
                 </p>
+                <DownloadResumeButton />
             </div>
 
             <div className="py-10 flex flex-col">
