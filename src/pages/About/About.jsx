@@ -18,7 +18,14 @@ const About = () => {
                 <p className="mt-5 flex flex-col gap-3 text-slate-500 text-lg">
                     I&apos;m passionate about building beautiful interfaces. I gravitate towards creating designs that feel immersive and 3D. My highest priority is to make the application smooth and visually stunning so that the eyes never get tired of it.
                 </p>
-                <DownloadResumeButton />
+                <div className='flex gap-2'>
+                    <button className='btn btn-ghost my-4 text-base border-gray-500 border-2'>
+                        <a href="https://github.com/emiya-77" target='_blank' rel='noopener noreferrer'>
+                            Github
+                        </a>
+                    </button>
+                    <DownloadResumeButton />
+                </div>
             </div>
 
             <div className="py-10 flex flex-col">
